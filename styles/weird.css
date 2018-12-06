@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/***************** Night theme ***********************/
+
+body .night {
+    background-color: #282828;
+}
+
+div.card * {
+    color: whitesmoke;
+}
+
+hr .night {
+    background-color: whitesmoke;
+}
+
+p .night {
+    color: whitesmoke;
+}
+
+h1 .night {
+    color: white;
+}
+
+.navbar .black {
+    background-color: transparent;
+}
+
+.active .black {
+    border-bottom: 1px solid white;
+}
+
+/***************** Normal theme ***********************/
+
+body {
+    background-color: whitesmoke;
+}
+
+div.card * {
+    color: black;
+}
+
+hr {
+    background-color: black;
+}
+
+p {
+    color: black;
+}
+
+h1 {
+    color: black;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
