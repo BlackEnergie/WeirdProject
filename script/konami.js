@@ -9,7 +9,7 @@ var allowedKeys = {
   };
   
   // the 'official' Konami Code sequence
-  var konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'a', 'b'];
+  var konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'];
   
   // a variable to remember the 'position' the user has reached so far.
   var konamiCodePosition = 0;
@@ -38,7 +38,7 @@ var allowedKeys = {
   });
   
   function activateCheats() {
-    document.body.style.backgroundImage = "url('images/cheatBackground.png')";
+    document.body.style.backgroundImage = "url('images/Secretmemeroom.png')";
   }
 
   function surprise(){
