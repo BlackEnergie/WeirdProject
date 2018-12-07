@@ -6,7 +6,7 @@
 
 /***************** Night theme ***********************/
 
-body .night {
+body.night {
     background-color: #282828;
     background-size:cover;
     background-image: url("../images/seamless-animation-desert-sand-storm-at-night-with-palm-trees-shining-stars-and-pyramids-background-landscape-with-sand-hills-desert-in-4k-ultra-hd_rqxov7jyx_thumbnail-full02.png")
@@ -16,23 +16,23 @@ div.card * {
     color: whitesmoke;
 }
 
-hr .night {
+hr.night {
     background-color: whitesmoke;
 }
 
-p .night {
+p.night {
     color: whitesmoke;
 }
 
-h1 .night {
+h1.night {
     color: white;
 }
 
-.navbar .black {
+.navbar.night {
     background-color: transparent;
 }
 
-.active .black {
+.active.night {
     border-bottom: 1px solid white;
 }
 
