@@ -38,6 +38,7 @@ h1 .night {
 
 body {
     background-color: whitesmoke;
+    background-image: url(../images/Desert_Background-1162.jpg);
 }
 
 div.card * {
@@ -57,9 +58,15 @@ h1 {
 }
 
 .navbar {
-    background-color: transparent;
+    background-color: rgb(200,200,200,0.2);
+    box-shadow: 0 1px 10px;
 }
 
 .active {
     border-bottom: 1px solid black;
+}
+
+#surprise {
+margin-right:auto;
+margin-left:auto;
 }
